@@ -16,4 +16,5 @@
 # limitations under the License.
 
 include_recipe "freeswitch::install_from_package"
-include_recipe "freeswitch::install_from_source"
+
+#include_recipe "freeswitch::install_from_source"
