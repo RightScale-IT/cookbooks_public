@@ -1,5 +1,5 @@
 # Cookbook Name:: freeswitch
-# Recipe:: default
+# Recipe:: install
 #
 # Copyright 2012, Chris Fordham
 #
@@ -15,5 +15,5 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include_recipe "freeswitch::install"
-include_recipe "freeswitch::configure"
+include_recipe "freeswitch::install_from_package"
+include_recipe "freeswitch::install_from_source"

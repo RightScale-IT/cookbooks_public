@@ -1,5 +1,5 @@
 # Cookbook Name:: freeswitch
-# Recipe:: default
+# Recipe:: install_from_package
 #
 # Copyright 2012, Chris Fordham
 #
@@ -15,5 +15,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include_recipe "freeswitch::install"
-include_recipe "freeswitch::configure"
+package "python-software-properties"
+
+package "freeswitch"
+
+package "freeswitch-lang-en"
+
+package "freeswitch-sounds-en-us-callie-8000"
