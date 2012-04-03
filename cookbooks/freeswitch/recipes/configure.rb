@@ -14,3 +14,31 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+
+template "/opt/freeswitch/conf/vars.xml" do
+  source "vars.xml.erb"
+  mode 0640
+  owner "freeswitch"
+  group "daemon"
+end
+
+template "/opt/freeswitch/conf/sip_profiles/internal.xml" do
+  source "internal.xml.erb"
+  mode 0640
+  owner "freeswitch"
+  group "daemon"
+end
+
+template "/opt/freeswitch/conf/sip_profiles/external.xml" do
+  source "external.xml.erb"
+  mode 0640
+  owner "freeswitch"
+  group "daemon"
+end
+
+template "/opt/freeswitch/conf/autoload_configs/switch.conf.xml" do
+  source "switch.conf.xml.erb"
+  mode 0640
+  owner "freeswitch"
+  group "daemon"
+end
