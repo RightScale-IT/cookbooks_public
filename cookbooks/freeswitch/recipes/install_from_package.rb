@@ -15,6 +15,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+include_recipe "freeswitch::install_drivers_ppa_apt"
+
 package "python-software-properties"
 
 package "freeswitch"
