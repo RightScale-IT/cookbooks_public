@@ -10,7 +10,7 @@ supports "ubuntu"
 depends "apt"
 depends "build-essential"
 
-recipe "freeswitch:default", "Installs and configures Freeswitch from Apt."
+recipe "freeswitch::default", "Installs and configures Freeswitch from Apt."
 recipe "freeswitch::install", "Installs Freeswitch from Apt."
 recipe "freeswitch::configure", "Configures Freeswitch."
 recipe "freeswitch::install_drivers_ppa_apt", "Installs the PPA Apt repository for ppa:freeswitch-drivers/freeswitch-nightly-drivers."

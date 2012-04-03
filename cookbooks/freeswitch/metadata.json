@@ -19,9 +19,9 @@
   "recommendations": {
   },
   "recipes": {
-    "freeswitch:default": "Installs and configures Freeswitch from Apt.",
     "freeswitch::install_from_package": "Installs Freeswitch by package from Apt.",
     "freeswitch::install_from_source": "Installs Freeswitch from source.",
+    "freeswitch::default": "Installs and configures Freeswitch from Apt.",
     "freeswitch::install_drivers_ppa_apt": "Installs the PPA Apt repository for ppa:freeswitch-drivers/freeswitch-nightly-drivers.",
     "freeswitch::install": "Installs Freeswitch from Apt.",
     "freeswitch::configure": "Configures Freeswitch."
