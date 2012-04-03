@@ -19,7 +19,7 @@ include_recipe "apt"
 
 # add-apt-repository ppa:freeswitch-drivers/freeswitch-nightly-drivers
 apt_repository "freeswitch-nightly-drivers" do
-  uri "http://ppa.launchpad.net/freeswitch-drivers/freeswitch-nightly-drivers"
+  uri "http://ppa.launchpad.net/freeswitch-drivers/freeswitch-nightly-drivers/ubuntu"
   distribution node['lsb']['codename']
   components ["main"]
   keyserver "keyserver.ubuntu.com"
