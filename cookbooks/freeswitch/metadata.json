@@ -1,0 +1,37 @@
+{
+  "dependencies": {
+    "apt": ">= 0.0.0",
+    "build-essential": ">= 0.0.0"
+  },
+  "name": "freeswitch",
+  "maintainer_email": "chris.fordham@rightscale.com",
+  "attributes": {
+  },
+  "license": "Apache 2.0",
+  "suggestions": {
+  },
+  "platforms": {
+    "ubuntu": ">= 0.0.0"
+  },
+  "maintainer": "Chris Fordham",
+  "long_description": "= DESCRIPTION:\n\n= REQUIREMENTS:\n\n= ATTRIBUTES:\n\n= USAGE:\n\n",
+  "version": "0.0.1",
+  "recommendations": {
+  },
+  "recipes": {
+    "freeswitch:default": "Installs and configures Freeswitch from Apt.",
+    "freeswitch::install_from_package": "Installs Freeswitch by package from Apt.",
+    "freeswitch::install_from_source": "Installs Freeswitch from source.",
+    "freeswitch::install": "Installs Freeswitch from Apt.",
+    "freeswitch::configure": "Configures Freeswitch."
+  },
+  "groupings": {
+  },
+  "conflicting": {
+  },
+  "replacing": {
+  },
+  "description": "Installs/Configures freeswitch",
+  "providing": {
+  }
+}
